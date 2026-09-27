@@ -1,3 +1,3 @@
-def gitClone(String url, String branchName) {
+def call(String url, String branchName) {
     git url: "${url}", branch: "${branchName}"
 }
