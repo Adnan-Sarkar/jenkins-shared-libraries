@@ -1,3 +1,3 @@
-def printHello(String msg) {
+def call(String msg) {
     echo "${msg}"
 }
